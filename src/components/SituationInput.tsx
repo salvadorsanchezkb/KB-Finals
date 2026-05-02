@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { getCoachingResult, simulateChat } from '../lib/gemini';
 import type { Profile, CoachingResult, ChatMessage } from '../types';
 import CoachingCard from './CoachingCard';
-import { Loader2, ImagePlus, X, Send, UserPlus, Edit2, ChevronDown, Check } from 'lucide-react';
+import { Loader2, ImagePlus, X, Send, UserPlus, Edit2, ChevronDown } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
 const DEFAULT_PROFILES: Profile[] = [
